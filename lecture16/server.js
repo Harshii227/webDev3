@@ -37,7 +37,7 @@ app.get('/data', (req, res) => {
     console.log("hello data");
     res.json({
         city:"New York",
-        country:"Use",
+        country:"USA",
         temp:32,
         humidity:80
     })
