@@ -30,7 +30,7 @@ app.use(apicheckMiddleware);
 app.get('/', (req, res) => {
     console.log("Request name: ", res.name);
     console.log("hello world"); 
-    res.send('Hello World.');
+    res.send('Hello World');
 });
 
 app.get('/data', (req, res) => { 
