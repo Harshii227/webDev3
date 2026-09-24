@@ -17,7 +17,7 @@ app.use(morgan());
 
 const apicheckMiddleware = (req, res, next) =>{
     if (req.query.API_KEY==="12345") {
-        console.log("authenticated");
+        console.log("Authenticated");
         next();
     } else {
         res.send("API invalid");
@@ -29,7 +29,7 @@ app.use(apicheckMiddleware);
 
 app.get('/', (req, res) => {
     console.log("Request name: ", res.name);
-    console.log("hello world"); 
+    console.log("Hello World"); 
     res.send('Hello World');
 });
 
