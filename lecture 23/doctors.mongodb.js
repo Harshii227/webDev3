@@ -1,4 +1,4 @@
-use("HospitalDB")
+// use("HospitalDB")
 
 // db.doctors.insert([
 //     {
